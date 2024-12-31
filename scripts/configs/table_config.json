@@ -1,0 +1,4 @@
+{
+    "stock_data": "CREATE TABLE stock_data (date TEXT NOT NULL,stock_symbol VARCHAR(10) NOT NULL,sector TEXT,close_price NUMBER);",
+    "preds": "CREATE TABLE preds (date TEXT NOT NULL, stock_symbol VARCHAR(10) NOT NULL, sector TEXT, close_price NUMBER, linear_predictions NUMBER, xgb_predictions NUMBER, rfr_predictions NUMBER);"
+}

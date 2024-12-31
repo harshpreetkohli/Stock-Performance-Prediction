@@ -1,0 +1,26 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Train model",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "C:\\Users\\sahej\\Downloads\\master_thesis\\master_thesis\\scripts\\train_model.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Set Up",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "C:\\Users\\sahej\\Downloads\\master_thesis\\master_thesis\\scripts\\set_up_db.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Extract Articles",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "C:\\Users\\sahej\\Downloads\\master_thesis\\master_thesis\\scripts\\extract_stock_prices.py",
+            "console": "integratedTerminal"
+        }
+    ]
+}
