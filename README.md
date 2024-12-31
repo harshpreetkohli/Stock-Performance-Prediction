@@ -1,7 +1,7 @@
 # Stock-Performance-Prediction
 
 ## Set up to run the project
-1. Create birtual environment
+1. Create virtual environment
 `python -m venv path/to/venv`
 2. Activate virtual environment
 `path.to/venv/Scripts/activate.bat`
