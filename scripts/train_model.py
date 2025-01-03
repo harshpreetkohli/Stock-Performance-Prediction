@@ -18,7 +18,7 @@ from xgboost import XGBRegressor
 
 DB_PATH = "scripts/articles.db"
 TRAINING_DATA_SPLIT = 0.90 # 90 percent of the data will be used as training set and 10 as validation
-SYMBOLS = ["TSLA", "AAPL", "IBM"]
+SYMBOLS = ["MSFT", "AAPL", "NVDA", "PFE", "JNJ", "ABBV", "JPM", "V", "GS", "XOM", "NEE", "CVX"]
 
 def create_data_sets(data: pd.DataFrame):
     """
