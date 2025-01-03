@@ -8,9 +8,18 @@ import yfinance as yf
 import pandas as pd
 
 SYMBOLS = {
-    "TSLA": "Automotive",
+    "MSFT": "Technology",
     "AAPL": "Technology",
-    "IBM": "Technology"
+    "NVDA": "Technology",
+    "PFE": "Healthcare",
+    "JNJ": "Healthcare",
+    "ABBV": "Healthcare",
+    "JPM": "Financial Services",
+    "v": "Financial Services",
+    "GS": "Financial Services",
+    "XOM": "Energy",
+    "NEE": "Energy",
+    "CVX": "Energy"
     }
 
 
